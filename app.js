@@ -11,6 +11,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Fetch and render data
     fetchData();
+
+    // Auto-refresh data every 1 hour (3,600,000 ms) without reloading the page
+    setInterval(fetchData, 3600000);
 });
 
 async function fetchData() {
