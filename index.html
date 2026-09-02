@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TINK - Gold & Silver Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts: Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="dashboard-container">
+        <header>
+            <div class="header-left">
+                <h1>Trading Insight Neural Kernel (TINK)</h1>
+                <p class="subtitle">"금(Gold)과 은(Silver)의 선물 및 현물(ETF) 가격 동향을 비교 분석하는 인텔리전스 대시보드입니다."</p>
+            </div>
+            <div class="header-right">
+                <div class="timeframe-container" style="margin-right: 15px;">
+                    <select id="timeframe-selector" class="timeframe-select" style="padding: 5px 10px; border-radius: 6px; background-color: var(--bg-card); color: var(--text-primary); border: 1px solid var(--card-border); font-size: 0.9rem; cursor: pointer; outline: none;">
+                        <option value="3m" style="background-color: var(--bg-main);">과거 3개월</option>
+                        <option value="6m" style="background-color: var(--bg-main);">과거 6개월</option>
+                        <option value="1y" style="background-color: var(--bg-main);" selected>과거 1년</option>
+                        <option value="3y" style="background-color: var(--bg-main);">과거 3년</option>
+                        <option value="5y" style="background-color: var(--bg-main);">과거 5년</option>
+                    </select>
+                </div>
+                <div class="status-badge">
+                    <div class="status-text">
+                        <span class="pulse-dot"></span>
+                        <span id="last-updated">Updating...</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <nav class="tabs">
+            <button class="tab-btn active" data-target="metals-section">💰 금/은 시장 동향</button>
+        </nav>
+
+        <main>
+            <!-- Metals Section -->
+            <section id="metals-section" class="tab-content active">
+                <div class="grid" id="metals-grid">
+                    <!-- Cards will be injected here by JS -->
+                </div>
+                <div class="section-description" style="margin-top: 2rem;">
+                    <p>ℹ️ <strong>참고 자료:</strong> 야후 파이낸스(Yahoo Finance)에서 제공하는 금/은 선물 가격과 실물 기반 ETF(GLD, SLV) 가격을 비교합니다. 현물 가격 조회가 불안정할 때 가장 신뢰할 수 있는 대안입니다.</p>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Template for a Card -->
+    <template id="card-template">
+        <div class="card">
+            <div class="card-header">
+                <h3 class="card-title">Title</h3>
+                <span class="card-symbol">SYMBOL</span>
+            </div>
+            <div class="card-price-section">
+                <div style="display: flex; align-items: baseline; gap: 4px;">
+                    <div class="card-current">0.00</div>
+                    <span style="font-size: 0.8rem; color: var(--text-secondary);">(USD)</span>
+                </div>
+                <div class="card-change">0.00%</div>
+            </div>
+            <div class="card-per-gram" style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 15px; font-weight: 500;">
+                <!-- JS will inject: 1g당 $XX.XX | ₩XX,XXX -->
+            </div>
+            <div class="chart-container">
+                <canvas></canvas>
+            </div>
+            <div class="card-stats">
+                <div class="stat-item">
+                    <span class="stat-label">평균</span>
+                    <strong class="stat-mean">0.00</strong>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">중앙값</span>
+                    <strong class="stat-median">0.00</strong>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">최고</span>
+                    <strong class="stat-high" style="color: #ef4444;">0.00</strong>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">최저</span>
+                    <strong class="stat-low" style="color: #3b82f6;">0.00</strong>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <script src="app.js?v=4"></script>
+</body>
+</html>
