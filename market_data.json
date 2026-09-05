@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-09-05 08:06:46",
+    "last_updated": "2026-09-05 10:08:50",
     "usd_krw": 1345.989990234375,
     "metals": [
         {
@@ -2537,13 +2537,13 @@
         {
             "name": "Gold (현물 ETF)",
             "symbol": "GLD",
-            "current": 406.77,
-            "change_percent": -0.84,
+            "current": NaN,
+            "change_percent": NaN,
             "stats": {
-                "mean": 245.03,
-                "median": 198.81,
-                "high": 495.9,
-                "low": 151.23
+                "mean": NaN,
+                "median": NaN,
+                "high": NaN,
+                "low": NaN
             },
             "history": {
                 "labels": [
@@ -5058,7 +5058,7 @@
                     396.75,
                     402.78,
                     410.22,
-                    406.77
+                    NaN
                 ]
             }
         },
@@ -7597,13 +7597,13 @@
         {
             "name": "Silver (현물 ETF)",
             "symbol": "SLV",
-            "current": 59.82,
-            "change_percent": -1.21,
+            "current": NaN,
+            "change_percent": NaN,
             "stats": {
-                "mean": 31.24,
-                "median": 23.47,
-                "high": 105.6,
-                "low": 16.38
+                "mean": NaN,
+                "median": NaN,
+                "high": NaN,
+                "low": NaN
             },
             "history": {
                 "labels": [
@@ -10118,7 +10118,7 @@
                     57.92,
                     59.07,
                     60.55,
-                    59.82
+                    NaN
                 ]
             }
         }
