@@ -1,12 +1,12 @@
 {
-    "last_updated": "2026-09-10 01:47:33",
-    "usd_krw": 1339.050048828125,
+    "last_updated": "2026-09-10 04:54:10",
+    "usd_krw": 1339.7900390625,
     "metals": [
         {
             "name": "Gold (선물)",
             "symbol": "GC=F",
-            "current": 4444.8,
-            "change_percent": 1.16,
+            "current": 4444.6,
+            "change_percent": 1.15,
             "stats": {
                 "mean": 2654.65,
                 "median": 2157.9,
@@ -2530,15 +2530,15 @@
                     4491.7,
                     4429.8,
                     4393.9,
-                    4444.8
+                    4444.6
                 ]
             }
         },
         {
             "name": "Gold (현물 ETF)",
             "symbol": "GLD",
-            "current": 404.14,
-            "change_percent": 1.11,
+            "current": 403.37,
+            "change_percent": 0.91,
             "stats": {
                 "mean": 245.4,
                 "median": 199.79,
@@ -5058,15 +5058,15 @@
                     410.22,
                     406.77,
                     399.72,
-                    404.14
+                    403.37
                 ]
             }
         },
         {
             "name": "Silver (선물)",
             "symbol": "SI=F",
-            "current": 68.08,
-            "change_percent": 2.7,
+            "current": 67.96,
+            "change_percent": 2.5,
             "stats": {
                 "mean": 34.28,
                 "median": 25.69,
@@ -7590,15 +7590,15 @@
                     66.97,
                     66.05,
                     66.3,
-                    68.08
+                    67.96
                 ]
             }
         },
         {
             "name": "Silver (현물 ETF)",
             "symbol": "SLV",
-            "current": 61.12,
-            "change_percent": 2.95,
+            "current": 60.72,
+            "change_percent": 2.28,
             "stats": {
                 "mean": 31.3,
                 "median": 23.48,
@@ -10118,7 +10118,7 @@
                     60.55,
                     59.82,
                     59.37,
-                    61.12
+                    60.72
                 ]
             }
         }
