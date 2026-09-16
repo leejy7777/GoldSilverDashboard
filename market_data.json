@@ -1,14 +1,14 @@
 {
-    "last_updated": "2026-09-16 06:32:48",
-    "usd_krw": 1363.1099853515625,
+    "last_updated": "2026-09-16 09:34:18",
+    "usd_krw": 1368.1800537109375,
     "metals": [
         {
             "name": "Gold (선물)",
             "symbol": "GC=F",
-            "current": 4333.4,
-            "change_percent": -0.43,
+            "current": 4325.5,
+            "change_percent": -0.61,
             "stats": {
-                "mean": 2675.29,
+                "mean": 2675.28,
                 "median": 2165.65,
                 "high": 5318.4,
                 "low": 1630.9
@@ -2532,20 +2532,20 @@
                     4407.3,
                     4408.9,
                     4351.9,
-                    4333.4
+                    4325.5
                 ]
             }
         },
         {
             "name": "Gold (현물 ETF)",
             "symbol": "GLD",
-            "current": 394.15,
-            "change_percent": 0.33,
+            "current": NaN,
+            "change_percent": NaN,
             "stats": {
-                "mean": 246.19,
-                "median": 200.35,
-                "high": 495.9,
-                "low": 151.23
+                "mean": NaN,
+                "median": NaN,
+                "high": NaN,
+                "low": NaN
             },
             "history": {
                 "labels": [
@@ -5058,15 +5058,15 @@
                     396.36,
                     398.77,
                     392.84,
-                    394.15
+                    NaN
                 ]
             }
         },
         {
             "name": "Silver (선물)",
             "symbol": "SI=F",
-            "current": 64.18,
-            "change_percent": 1.06,
+            "current": 64.22,
+            "change_percent": 1.12,
             "stats": {
                 "mean": 34.41,
                 "median": 25.74,
@@ -7590,20 +7590,20 @@
                     64.28,
                     64.55,
                     63.51,
-                    64.18
+                    64.22
                 ]
             }
         },
         {
             "name": "Silver (현물 ETF)",
             "symbol": "SLV",
-            "current": 57.53,
-            "change_percent": 1.21,
+            "current": NaN,
+            "change_percent": NaN,
             "stats": {
-                "mean": 31.42,
-                "median": 23.62,
-                "high": 105.6,
-                "low": 16.38
+                "mean": NaN,
+                "median": NaN,
+                "high": NaN,
+                "low": NaN
             },
             "history": {
                 "labels": [
@@ -10116,7 +10116,7 @@
                     57.5,
                     58.12,
                     56.84,
-                    57.53
+                    NaN
                 ]
             }
         }
