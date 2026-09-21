@@ -1,14 +1,14 @@
 {
-    "last_updated": "2026-09-21 23:23:30",
-    "usd_krw": 1372.9100341796875,
+    "last_updated": "2026-09-22 04:36:52",
+    "usd_krw": 1375.050048828125,
     "metals": [
         {
             "name": "Gold (선물)",
             "symbol": "GC=F",
-            "current": 4378.3,
-            "change_percent": -1.05,
+            "current": 4384.8,
+            "change_percent": -0.91,
             "stats": {
-                "mean": 2683.65,
+                "mean": 2683.66,
                 "median": 2179.0,
                 "high": 5318.4,
                 "low": 1630.9
@@ -2532,15 +2532,15 @@
                     4387.5,
                     4399.7,
                     4424.9,
-                    4378.3
+                    4384.8
                 ]
             }
         },
         {
             "name": "Gold (현물 ETF)",
             "symbol": "GLD",
-            "current": 397.49,
-            "change_percent": -0.92,
+            "current": 399.04,
+            "change_percent": -0.53,
             "stats": {
                 "mean": 246.87,
                 "median": 201.63,
@@ -5060,15 +5060,15 @@
                     391.74,
                     398.36,
                     401.17,
-                    397.49
+                    399.04
                 ]
             }
         },
         {
             "name": "Silver (선물)",
             "symbol": "SI=F",
-            "current": 66.75,
-            "change_percent": 0.3,
+            "current": 66.58,
+            "change_percent": 0.04,
             "stats": {
                 "mean": 34.55,
                 "median": 25.87,
@@ -7592,15 +7592,15 @@
                     64.29,
                     65.47,
                     66.56,
-                    66.75
+                    66.58
                 ]
             }
         },
         {
             "name": "Silver (현물 ETF)",
             "symbol": "SLV",
-            "current": 59.68,
-            "change_percent": -0.42,
+            "current": 59.78,
+            "change_percent": -0.24,
             "stats": {
                 "mean": 31.53,
                 "median": 23.74,
@@ -10120,7 +10120,7 @@
                     57.05,
                     58.97,
                     59.93,
-                    59.68
+                    59.78
                 ]
             }
         }
