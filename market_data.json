@@ -1,14 +1,14 @@
 {
-    "last_updated": "2026-09-25 22:58:18",
-    "usd_krw": 1354.9100341796875,
+    "last_updated": "2026-09-26 03:45:20",
+    "usd_krw": 1355.0799560546875,
     "metals": [
         {
             "name": "Gold (선물)",
             "symbol": "GC=F",
-            "current": 4312.0,
-            "change_percent": 0.33,
+            "current": 4327.9,
+            "change_percent": 0.7,
             "stats": {
-                "mean": 2691.8,
+                "mean": 2691.81,
                 "median": 2189.6,
                 "high": 5318.4,
                 "low": 1630.9
@@ -2532,15 +2532,15 @@
                     4376.4,
                     4318.4,
                     4298.0,
-                    4312.0
+                    4327.9
                 ]
             }
         },
         {
             "name": "Gold (현물 ETF)",
             "symbol": "GLD",
-            "current": 392.07,
-            "change_percent": 0.1,
+            "current": 393.5,
+            "change_percent": 0.46,
             "stats": {
                 "mean": 247.6,
                 "median": 202.18,
@@ -5060,15 +5060,15 @@
                     400.07,
                     392.88,
                     391.69,
-                    392.07
+                    393.5
                 ]
             }
         },
         {
             "name": "Silver (선물)",
             "symbol": "SI=F",
-            "current": 64.29,
-            "change_percent": 1.31,
+            "current": 64.95,
+            "change_percent": 2.35,
             "stats": {
                 "mean": 34.68,
                 "median": 26.11,
@@ -7592,15 +7592,15 @@
                     65.93,
                     64.38,
                     63.46,
-                    64.29
+                    64.95
                 ]
             }
         },
         {
             "name": "Silver (현물 ETF)",
             "symbol": "SLV",
-            "current": 57.74,
-            "change_percent": 0.21,
+            "current": 58.23,
+            "change_percent": 1.06,
             "stats": {
                 "mean": 31.65,
                 "median": 23.87,
@@ -10120,7 +10120,7 @@
                     60.73,
                     58.16,
                     57.62,
-                    57.74
+                    58.23
                 ]
             }
         }
