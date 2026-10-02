@@ -1,12 +1,12 @@
 {
-    "last_updated": "2026-10-03 03:33:39",
-    "usd_krw": 1344.97998046875,
+    "last_updated": "2026-10-03 08:06:02",
+    "usd_krw": 1342.510009765625,
     "metals": [
         {
             "name": "Gold (선물)",
             "symbol": "GC=F",
-            "current": 4165.9,
-            "change_percent": -0.87,
+            "current": 4172.1,
+            "change_percent": -0.72,
             "stats": {
                 "mean": 2701.49,
                 "median": 2305.7,
@@ -2532,15 +2532,15 @@
                     4179.7,
                     4186.7,
                     4202.3,
-                    4165.9
+                    4172.1
                 ]
             }
         },
         {
             "name": "Gold (현물 ETF)",
             "symbol": "GLD",
-            "current": 379.43,
-            "change_percent": -0.87,
+            "current": 380.14,
+            "change_percent": -0.68,
             "stats": {
                 "mean": 248.47,
                 "median": 211.52,
@@ -5060,15 +5060,15 @@
                     382.89,
                     380.84,
                     382.76,
-                    379.43
+                    380.14
                 ]
             }
         },
         {
             "name": "Silver (선물)",
             "symbol": "SI=F",
-            "current": 60.54,
-            "change_percent": -0.3,
+            "current": 60.71,
+            "change_percent": -0.02,
             "stats": {
                 "mean": 34.83,
                 "median": 26.49,
@@ -7592,15 +7592,15 @@
                     60.67,
                     60.1,
                     60.72,
-                    60.54
+                    60.71
                 ]
             }
         },
         {
             "name": "Silver (현물 ETF)",
             "symbol": "SLV",
-            "current": 54.5,
-            "change_percent": -0.95,
+            "current": 54.74,
+            "change_percent": -0.51,
             "stats": {
                 "mean": 31.79,
                 "median": 24.22,
@@ -10120,7 +10120,7 @@
                     55.48,
                     54.51,
                     55.02,
-                    54.5
+                    54.74
                 ]
             }
         }
