@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-10-18 09:09:09",
+    "last_updated": "2026-10-18 13:49:46",
     "usd_krw": 1329.5999755859375,
     "metals": [
         {
@@ -5067,8 +5067,8 @@
         {
             "name": "Silver (선물)",
             "symbol": "SI=F",
-            "current": 56.99,
-            "change_percent": 0.28,
+            "current": 57.31,
+            "change_percent": 0.82,
             "stats": {
                 "mean": 35.12,
                 "median": 27.25,
@@ -7592,7 +7592,7 @@
                     59.16,
                     55.55,
                     56.84,
-                    56.99
+                    57.31
                 ]
             }
         },
