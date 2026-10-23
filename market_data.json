@@ -1,14 +1,14 @@
 {
-    "last_updated": "2026-10-23 07:31:38",
-    "usd_krw": 1325.6800537109375,
+    "last_updated": "2026-10-23 10:41:18",
+    "usd_krw": 1322.1800537109375,
     "metals": [
         {
             "name": "Gold (선물)",
             "symbol": "GC=F",
-            "current": 4044.0,
-            "change_percent": -2.55,
+            "current": 4031.5,
+            "change_percent": -2.86,
             "stats": {
-                "mean": 2728.03,
+                "mean": 2728.02,
                 "median": 2329.9,
                 "high": 5318.4,
                 "low": 1630.9
@@ -2532,7 +2532,7 @@
                     4160.1,
                     4142.6,
                     4150.0,
-                    4044.0
+                    4031.5
                 ]
             }
         },
@@ -5065,8 +5065,8 @@
         {
             "name": "Silver (선물)",
             "symbol": "SI=F",
-            "current": 54.66,
-            "change_percent": -4.81,
+            "current": 54.36,
+            "change_percent": -5.33,
             "stats": {
                 "mean": 35.22,
                 "median": 27.34,
@@ -7590,7 +7590,7 @@
                     56.97,
                     57.71,
                     57.42,
-                    54.66
+                    54.36
                 ]
             }
         },
