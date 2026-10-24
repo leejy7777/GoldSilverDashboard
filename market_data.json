@@ -1,12 +1,12 @@
 {
-    "last_updated": "2026-10-24 09:51:30",
-    "usd_krw": 1323.6600341796875,
+    "last_updated": "2026-10-24 15:03:24",
+    "usd_krw": 1325.4000244140625,
     "metals": [
         {
             "name": "Gold (선물)",
             "symbol": "GC=F",
-            "current": 4010.0,
-            "change_percent": -1.24,
+            "current": 4007.9,
+            "change_percent": -1.29,
             "stats": {
                 "mean": 2729.8,
                 "median": 2331.0,
@@ -2532,20 +2532,20 @@
                     4142.6,
                     4150.0,
                     4060.4,
-                    4010.0
+                    4007.9
                 ]
             }
         },
         {
             "name": "Gold (현물 ETF)",
             "symbol": "GLD",
-            "current": NaN,
-            "change_percent": NaN,
+            "current": 366.61,
+            "change_percent": -0.65,
             "stats": {
-                "mean": NaN,
-                "median": NaN,
-                "high": NaN,
-                "low": NaN
+                "mean": 251.01,
+                "median": 214.64,
+                "high": 495.9,
+                "low": 151.23
             },
             "history": {
                 "labels": [
@@ -5060,15 +5060,15 @@
                     377.65,
                     378.95,
                     369.0,
-                    NaN
+                    366.61
                 ]
             }
         },
         {
             "name": "Silver (선물)",
             "symbol": "SI=F",
-            "current": 53.96,
-            "change_percent": -1.47,
+            "current": 53.71,
+            "change_percent": -1.92,
             "stats": {
                 "mean": 35.25,
                 "median": 27.36,
@@ -7592,20 +7592,20 @@
                     57.71,
                     57.42,
                     54.76,
-                    53.96
+                    53.71
                 ]
             }
         },
         {
             "name": "Silver (현물 ETF)",
             "symbol": "SLV",
-            "current": NaN,
-            "change_percent": NaN,
+            "current": 48.72,
+            "change_percent": -1.26,
             "stats": {
-                "mean": NaN,
-                "median": NaN,
-                "high": NaN,
-                "low": NaN
+                "mean": 32.16,
+                "median": 24.99,
+                "high": 105.6,
+                "low": 16.38
             },
             "history": {
                 "labels": [
@@ -10120,7 +10120,7 @@
                     52.12,
                     52.26,
                     49.34,
-                    NaN
+                    48.72
                 ]
             }
         }
