@@ -1,14 +1,14 @@
 {
-    "last_updated": "2026-11-07 00:13:35",
-    "usd_krw": 1361.780029296875,
+    "last_updated": "2026-11-07 05:57:42",
+    "usd_krw": 1363.3699951171875,
     "metals": [
         {
             "name": "Gold (선물)",
             "symbol": "GC=F",
-            "current": 4060.4,
-            "change_percent": -1.29,
+            "current": 4074.0,
+            "change_percent": -0.96,
             "stats": {
-                "mean": 2747.53,
+                "mean": 2747.54,
                 "median": 2340.75,
                 "high": 5318.4,
                 "low": 1630.9
@@ -2532,17 +2532,17 @@
                     3940.4,
                     4073.0,
                     4113.5,
-                    4060.4
+                    4074.0
                 ]
             }
         },
         {
             "name": "Gold (현물 ETF)",
             "symbol": "GLD",
-            "current": 371.52,
-            "change_percent": -1.06,
+            "current": 372.64,
+            "change_percent": -0.76,
             "stats": {
-                "mean": 252.6,
+                "mean": 252.61,
                 "median": 215.47,
                 "high": 495.9,
                 "low": 151.23
@@ -5060,15 +5060,15 @@
                     359.26,
                     372.49,
                     375.49,
-                    371.52
+                    372.64
                 ]
             }
         },
         {
             "name": "Silver (선물)",
             "symbol": "SI=F",
-            "current": 51.85,
-            "change_percent": -0.73,
+            "current": 51.97,
+            "change_percent": -0.51,
             "stats": {
                 "mean": 35.47,
                 "median": 27.81,
@@ -7592,15 +7592,15 @@
                     49.59,
                     52.12,
                     52.23,
-                    51.85
+                    51.97
                 ]
             }
         },
         {
             "name": "Silver (현물 ETF)",
             "symbol": "SLV",
-            "current": 46.97,
-            "change_percent": 0.07,
+            "current": 46.85,
+            "change_percent": -0.17,
             "stats": {
                 "mean": 32.36,
                 "median": 25.44,
@@ -10120,7 +10120,7 @@
                     44.84,
                     47.16,
                     46.93,
-                    46.97
+                    46.85
                 ]
             }
         }
